@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body{
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    font-family: 'Space Mono', monospace;
+}
+
+.coins{
+    color: white;
+    font-size: 2em;
+}
+
+.coinspersecond{
+    color: white;
+    position: relative;
+    top: -2em;
+}
+
+button {
+    transition-duration: 0.4s;
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, rgb(0, 202, 185) 100%);
+  border: none;
+  color: rgb(0, 255, 234);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+}
+  
+button:hover {
+    background-color: #f5f5f5; /* Green */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgb(11, 0, 161), 0 17px 50px 0 rgb(0, 153, 255);
+    
+}
+
+.worms {
+    position: relative;
+    left: 1em;
+    top: 1em;
+}
+
+.cheese {
+position: relative;
+left: 0.7em;
+top: 2em;
+}
+
+.bread {
+    position: relative;
+    left: 0.7em;
+    top: 3em;
+}
+
+.flies {
+    position: relative;
+    left: 0.89em;
+    top: 4em;
+}
+
+.upgrades{
+    width: 13em;
+    height: 23em;
+    background-color: black;
+    position: relative;
+    top: -82em;
+    left: 100em;
+    padding: 2em;
+    margin: 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+.rod {
+    position: relative;
+    left: 0.3em;
+}
+
+.reel {
+    position: relative;
+    left: 0.4em;
+    top: 1em;
+
+}
+
+.boat {
+    position: relative;
+    left: 0.3em;
+    top: 1.8em;
+}
+
+
+.coins {
+    margin: auto;
+    width: 5%;
+    padding: 0px;
+}
+
+.coinspersecond {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+.shop{
+    width: 13em;
+    height: 23em;
+    background-color: black;
+    position: relative;
+    top: -55em;
+    padding: 2em;
+    margin: 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+.buyhooks {
+    position: relative;
+    left: 1.3em;
+    
+}
+
+.fish {
+    margin: auto;
+    width: 5%;
+    padding: 200px;
+}
+
+.fishimg {
+    margin: auto;
+    width: 29%;
+    position: relative;
+    top: -25em;
+    cursor: pointer;
+}
+
+.pole{
+    position: relative;
+    left: 2.5em;
+}

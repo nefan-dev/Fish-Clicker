@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Clicker</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+<body>
+    
+    <!--Coins-->
+    <div class="coins"><p>Coins: <span id="coins">0</span></p></div>
+    <div class="coinspersecond">Coins per second: <span id="coinspersecond">0</span> </div>
+
+
+    <div class="fish"><button onclick="addToCoins(coinsPerClick)">Fish</button></div>
+
+    <div class="fishimg"><img src="540px-Font_Awesome_5_solid_fish.svg" alt="fish" onclick="addToCoins(coinsPerClick)"></div>
+
+    <div class="shop"><h2><center>Shop</center></h2>
+        <div class="buyhooks"><button onclick="buyHook()">Buy Hooks [<span id="hookcost">15</span>] - <span id="hooks">0</span></button></div>
+        <div class="worms"><button onclick="buyWorms()">Buy worms [<span id="wormcost">5000</span>] - <span id="worms">0</span></button></button></div>
+        <div class="cheese"><button onclick="buyCheese()">Buy cheese [<span id="cheesecost">10000</span>] - <span id="cheese">0</span></button></button></div>
+        <div class="bread"><button onclick="buyBread()">Buy bread [<span id="breadcost">100000</span>] - <span id="bread">0</span></button></button></div>
+        <div class="flies"><button onclick="buyFlies()">Buy flies[<span id="flycost">1000000</span>] - <span id="flies">0</span></button></button></div>
+        </div>
+
+    <div class="upgrades"><h2><center>Upgrades</center></h2>
+        <div class="rod"><button onclick="upgradeRod()">Upgrade rod [<span id="rodcost">200</span>] - Rod level:    <span id="rods">1</span></button></button></div>
+        <div class="reel"><button onclick="upgradeReel()">Upgrade reel [<span id="reelcost">2000</span>] - Reel Level:  <span id="reels">1</span></button></button></div>
+        <div class="boat"><button onclick="upgradeBoat()">Upgrade boat [<span id="boatcost">200000</span>] - Boat Level:  <span id="boats">1</span></button></button></div>
+    </div>
+</body>
+</html>
