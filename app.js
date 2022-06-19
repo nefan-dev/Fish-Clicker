@@ -30,6 +30,15 @@ var reelLevel = 1
 
 var boatCost = 200000
 var boatLevel = 1
+
+//Diamonds
+var Diamonds = 0
+var diamondCost = 1000000000
+
+//Gold
+var Gold = 0;
+var goldCost = 5000000
+
 /*
 function coinsPerSecond(){
     coinsPerSecond = coinsPerSecond + worms + 2
@@ -175,4 +184,32 @@ function upgradeBoat(){
         document.getElementById("coins").innerHTML = coins
         document.getElementById("boats").innerHTML = boatLevel
     }
+}
+
+function buyDiamonds(){
+    document.getElementById("diamonds").innerHTML = Diamonds
+
+    if(coins >= diamondCost){
+        coins = coins - diamondCost
+        Diamonds = Diamonds + 1
+
+        document.getElementById("diamondcost").innerHTML = diamondCost
+        document.getElementById("diamonds").innerHTML = Diamonds
+        document.getElementById("coins").innerHTML = coins
+    }
+
+}
+
+function buyGold(){
+    document.getElementById("gold").innerHTML = Gold
+
+    if(coins >= goldCost){
+        coins = coins - goldCost
+        Gold = Gold + 1
+
+        document.getElementById("goldcost").innerHTML = goldCost
+        document.getElementById("gold").innerHTML = Gold
+        document.getElementById("coins").innerHTML = coins
+    }
+
 }

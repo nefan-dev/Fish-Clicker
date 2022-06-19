@@ -68,7 +68,7 @@ top: 2em;
     height: 23em;
     background-color: black;
     position: relative;
-    top: -82em;
+    top: -87.5em;
     left: 100em;
     padding: 2em;
     margin: 20px;
@@ -112,7 +112,7 @@ top: 2em;
     height: 23em;
     background-color: black;
     position: relative;
-    top: -55em;
+    top: -60em;
     padding: 2em;
     margin: 20px;
     border-radius: 5%;
@@ -135,7 +135,7 @@ top: 2em;
     margin: auto;
     width: 29%;
     position: relative;
-    top: -25em;
+    top: -29em;
     cursor: pointer;
 }
 
@@ -159,7 +159,18 @@ top: 2em;
     height: 2px;
     width: 4px;
     position: relative;
-    top: -16.78em;
+    top: -21em;
     left: 10em;
 }
 
+.buydia{
+    position: relative;
+    left: 12em;
+    top: -15em;
+}
+
+.buygold{
+    position: relative;
+    left: 0em;
+    top: -6.7em;
+}
