@@ -143,3 +143,23 @@ top: 2em;
     position: relative;
     left: 2.5em;
 }
+
+.gold {
+    margin: 20px;
+    padding: 20px;
+    height: 2px;
+    width: 4px;
+    position: relative;
+    top: -13em;
+}
+
+.diamonds {
+    margin: 20px;
+    padding: 20px;
+    height: 2px;
+    width: 4px;
+    position: relative;
+    top: -16.78em;
+    left: 10em;
+}
+
