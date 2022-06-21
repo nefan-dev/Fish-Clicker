@@ -39,15 +39,6 @@ var diamondCost = 1000000000
 var Gold = 0;
 var goldCost = 5000000
 
-/*
-function coinsPerSecond(){
-    coinsPerSecond = coinsPerSecond + worms + 2
-    console.log(coinsPerSecond)
-
-    document.getElementById("coinspersecond").innerHTML = coinsPerSecond
-}
-*/
-
 function addToCoins(ammount){
     coins = coins + ammount
     document.getElementById("coins").innerHTML = coins
